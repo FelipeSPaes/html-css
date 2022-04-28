@@ -7,10 +7,10 @@
     <title>Alinhamento Vertical</title>
     <style>
         #container {
-            background-image: url('imagens/target001.png');
-            background-size: 100% 100%;
+            background-image: url('imagens/target001.png');/*imagem de fundo*/
+            background-size: 100% 100%;/*para deixa a imagem no centro do comntainer*/
 
-            position: relative;
+            position: relative;/**/
             height: 500px;
             padding: 10px;
             background-color: purple;
@@ -20,14 +20,14 @@
             background-image: url('imagens/target001.png');
             background-size: 100% 100%;
 
-            position: absolute;
-            height: 200px;
-            width: 400px;
+            position: absolute;/* qando se coloca o conteudo com posicionamento absoluto, pode se configurar duas propriedades*/
+            height: 200px;/*propriedade 1*/
+            width: 400px;/*propriedade 2*/
             background-color: yellow;
 
             left: 50%;
             top: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);/*mexer em qualquer caixa, aplicando uma configuração de transformação nela*/
         }
     </style>
 </head>
